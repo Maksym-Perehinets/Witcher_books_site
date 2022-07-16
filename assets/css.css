@@ -3,9 +3,11 @@ body{
     background-color: bisque;
 }
 .MainImg{
-    aspect-ratio: auto;
+    height: 400;
+    width: 506;
     display: block;
     margin: auto;
+    
 }
 h2{
     text-align: center
@@ -20,4 +22,20 @@ h2{
 .AdittionalInf p{
     color:#737373!important;
     font-style:italic!important;
+}
+ul.Nav{
+    padding-left: 0px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+ul.Nav > li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul.Nav > li:hover{
+    background-color: burlywood;
+}
+ul.Nav > li > a{
+    color: chocolate;
+    text-decoration: none;
 }
